@@ -31,7 +31,7 @@ python run.py
 ```
 You should see a link in the prompt. Copy it to your browser. If you see "Hello world", you are good to go.
 ## Coverage
-
+![alt text](https://github.com/pralphv/toy-instagram-backend/blob/master/coverage.jpg)
 ## What's left?
 - More validations in the API
 - Logging
