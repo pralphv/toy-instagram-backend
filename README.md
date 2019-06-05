@@ -4,6 +4,9 @@ This repo is the backend of the project Toy-Instagram. The project is built usin
 Frontend Repo: https://github.com/pralphv/toy-instagram-frondend
 
 <a href="https://toy-instagram-frontend.herokuapp.com/">Live Demo</a> View only catered for desktop 
+
+Note: Since Heroku's filesystem is ephermeral, all of the image uploads will be wiped out when Heroku restarts. Only images that I have pushed will remain workable.
+
 ## Getting Started
 Install dependencies
 ```
