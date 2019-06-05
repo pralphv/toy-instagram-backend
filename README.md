@@ -101,4 +101,3 @@ POST Response
 - Compress images when uploaded
 - Properly return errors
 - Rate limiting
-
