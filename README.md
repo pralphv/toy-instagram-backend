@@ -3,7 +3,7 @@ This repo is the backend of the project Toy-Instagram. The project is built usin
 
 Frontend Repo: https://github.com/pralphv/toy-instagram-frondend
 
-<a href="https://toy-instagram-frontend.herokuapp.com/">Live Demo</a>
+<a href="https://toy-instagram-frontend.herokuapp.com/">Live Demo</a> View only catered for desktop 
 ## Getting Started
 Install dependencies
 ```
