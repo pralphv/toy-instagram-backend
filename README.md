@@ -30,6 +30,22 @@ Run the server
 python run.py
 ```
 You should see a link in the prompt. Copy it to your browser. If you see "Hello world", you are good to go.
+## Api 
+api/igposts
+GET response
+```
+{
+    "status": str,
+    "data": [
+        {
+            "id": int,
+            "description": str,
+            "img_path": str,
+            "author": str,
+            "update_date": str
+        },
+    ]
+```
 ## Coverage
 ![alt text](https://github.com/pralphv/toy-instagram-backend/blob/master/coverage.jpg)
 ## What's left?
