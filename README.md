@@ -31,7 +31,7 @@ python run.py
 ```
 You should see a link in the prompt. Copy it to your browser. If you see "Hello world", you are good to go.
 ## Api 
-api/igposts
+### api/igposts
 
 GET response
 ```
@@ -59,6 +59,14 @@ POST Request
         },
 }
 ```
+### api/login
+POST Request
+```
+{
+    "username": str,
+    "password": str
+}
+```
 POST Response
 ```
 {
@@ -68,35 +76,22 @@ POST Response
   }
 }
 ```
-api/login
-
-POST response
-```
-{
-    "status": str,
-    "data": [
-        {
-            "id": int,
-            "description": str,
-            "img_path": str,
-            "author": str,
-            "update_date": str
-        },
-    ]
-```
+### api/register
 POST Request
 ```
 {
-    "body":{
-        "description": str
-        },
-    "header": {
-        "Authentication": "Bearer $(token)"
-        },
+    "username": str,
+    "password": str,
+    "retype_password": str
 }
 ```
-
-
+POST Response
+```
+{
+    "status": str,
+    "data": str
+}
+```
 
 ## Coverage
 ![alt text](https://github.com/pralphv/toy-instagram-backend/blob/master/coverage.jpg)
